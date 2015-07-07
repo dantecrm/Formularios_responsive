@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Smart Forms - Tooltips &amp; Icons </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css"  href="css/smart-forms.css">
+    <link rel="stylesheet" type="text/css"  href="css/font-awesome.min.css">
+    
+
+    <!--[if lte IE 9]>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>    
+        <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+    <![endif]-->    
+    
+    <!--[if lte IE 8]>
+        <link type="text/css" rel="stylesheet" href="css/smart-forms-ie8.css">
+    <![endif]-->
+       
+</head>
+
+<body class="woodbg">
+
+    <div class="smart-wrap">
+        <div class="smart-forms smart-container wrap-3">
+        
+            <div class="form-header header-primary">
+                <h4><i class="fa fa-comments"></i>Tooltips + Icons </h4>
+          </div><!-- end .form-header section -->
+            
+            <form method="post" action="/" id="contact">
+                <div class="form-body">
+                
+                    <div class="section">
+                        <label for="names" class="field-label">Icon left + tooltip left</label>
+                        <label for="names" class="field prepend-icon">
+                            <input type="text" name="names" id="names" class="gui-input" placeholder="Enter name...">
+                            <b class="tooltip tip-left"><em> Hey buddy! iam a left tooltip. You notice me now huh?</em></b>
+                            <label for="names" class="field-icon"><i class="fa fa-user"></i></label>  
+                        </label>
+                    </div><!-- end section -->
+                    
+                    <div class="section">
+                        <label for="email" class="field-label">Icon right + tooltip right</label>
+                        <label for="email" class="field append-icon">
+                            <input type="email" name="email" id="email" class="gui-input" placeholder="example@domain.com...">
+                            <b class="tooltip tip-right"><em> Hey buddy! iam a right tooltip.</em></b>
+                            <label for="email" class="field-icon"><i class="fa fa-envelope"></i></label>  
+                        </label>
+                    </div><!-- end section -->
+                    
+                    <div class="section">
+                        <label for="telephone" class="field-label">Icon left + tooltip top left</label>
+                        <label for="telephone" class="field prepend-icon">
+                            <input type="tel" name="telephone" id="telephone" class="gui-input" placeholder="Enter telephone or mobile...">
+                            <b class="tooltip tip-left-top"><em> Hey buddy! iam a top left tooltip. You notice me now huh?</em></b>
+                            <label for="telephone" class="field-icon"><i class="fa fa-phone-square"></i></label>  
+                        </label>
+                    </div><!-- end section -->
+                    
+                    <div class="section">
+                        <label for="subject" class="field-label">Icon right + tooltip top right</label>
+                        <label for="subject" class="field append-icon">
+                            <input type="text" name="subject" id="subject" class="gui-input" placeholder="Enter subject...">
+                            <b class="tooltip tip-right-top"><em> Hey buddy! iam a top right tooltip. You notice me now?</em></b>
+                            <label for="subject" class="field-icon"><i class="fa fa-flask"></i></label>  
+                        </label>
+                    </div><!-- end section -->                    
+                    
+                    <div class="section">
+                        <label for="comment" class="field-label">Icon left + tooltip bottom left </label>
+                        <label for="comment" class="field prepend-icon">
+                            <textarea class="gui-textarea" id="comment" name="comment"></textarea>
+                            <b class="tooltip tip-left-bottom"><em> Hey buddy! iam a bottom left tooltip. You notice me now?</em></b>
+                            <label for="comment" class="field-icon"><i class="fa fa-comments"></i></label>
+                            <span class="input-hint"> <strong>Hint:</strong> Please enter between 80 - 300 characters.</span>   
+                        </label>
+                    </div><!-- end section -->
+                    
+                    <div class="section">
+                        <label for="location" class="field-label">Icon right + tooltip bottom right</label>
+                        <label for="location" class="field append-icon">
+                            <input type="text" name="location" id="location" class="gui-input" placeholder="Enter location...">
+                            <b class="tooltip tip-right-bottom"><em> Hey buddy! iam a bottom right tooltip. You notice me now?</em></b>
+                            <label for="location" class="field-icon"><i class="fa fa-map-marker"></i></label>  
+                        </label>
+                    </div><!-- end section -->                              
+                    
+                </div><!-- end .form-body section -->
+                <div class="form-footer">
+                    <button type="submit" class="button btn-primary">Submit</button>
+                </div><!-- end .form-footer section -->
+            </form>
+            
+        </div><!-- end .smart-forms section -->
+    </div><!-- end .smart-wrap section -->
+    
+    <div></div><!-- end section -->
+
+</body>
+</html>
